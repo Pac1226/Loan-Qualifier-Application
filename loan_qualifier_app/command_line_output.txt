@@ -1,0 +1,101 @@
+Last login: Sun Jan  9 14:23:51 on ttys000
+(base) peterlieberman@Peters-MBP ~ % conda activate dev
+(dev) peterlieberman@Peters-MBP ~ % cd Desktop
+(dev) peterlieberman@Peters-MBP Desktop % cd Starter_Code
+(dev) peterlieberman@Peters-MBP Starter_Code % cd loan_qualifier_app 
+(dev) peterlieberman@Peters-MBP loan_qualifier_app % python app.py
+? Enter a file path to a rate-sheet (.csv): ./data/daily_rate_sheet.csv
+? What's your credit score? 780
+? What's your current amount of monthly debt? 2000
+? What's your total monthly income? 5000
+? What's your desired loan amount? 200000
+? What's your home value? 500000
+The monthly debt to income ratio is 0.40
+The loan to value ratio is 0.40.
+Found 12 qualifying loans
+Traceback (most recent call last):
+  File "app.py", line 131, in <module>
+    fire.Fire(run)
+  File "/opt/anaconda3/envs/dev/lib/python3.7/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/anaconda3/envs/dev/lib/python3.7/site-packages/fire/core.py", line 471, in _Fire
+    target=component.__name__)
+  File "/opt/anaconda3/envs/dev/lib/python3.7/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "app.py", line 127, in run
+    save_qualifying_loans(qualifying_loans)
+  File "app.py", line 109, in save_qualifying_loans
+    csvwriter.writerow(loan.values())
+AttributeError: 'list' object has no attribute 'values'
+(dev) peterlieberman@Peters-MBP loan_qualifier_app % cd Desktop
+cd: no such file or directory: Desktop
+(dev) peterlieberman@Peters-MBP loan_qualifier_app % cd    
+(dev) peterlieberman@Peters-MBP ~ % cd Desktop 
+(dev) peterlieberman@Peters-MBP Desktop % cd Fintech
+(dev) peterlieberman@Peters-MBP Fintech % cd 02-Financial-Applications-Python 
+(dev) peterlieberman@Peters-MBP 02-Financial-Applications-Python % Cd Challenge-2
+(dev) peterlieberman@Peters-MBP 02-Financial-Applications-Python % cd Challenge-2
+(dev) peterlieberman@Peters-MBP Challenge-2 % cd loan_qualifier_app 
+(dev) peterlieberman@Peters-MBP loan_qualifier_app % python app.py
+? Enter a file path to a rate-sheet (.csv): ./data/daily_rate_sheet.csv
+? What's your credit score? 780
+? What's your current amount of monthly debt? 2000
+? What's your total monthly income? 5000
+? What's your desired loan amount? 200000
+? What's your home value? 800000
+The monthly debt to income ratio is 0.40
+The loan to value ratio is 0.25.
+Found 12 qualifying loans
+Traceback (most recent call last):
+  File "app.py", line 131, in <module>
+    fire.Fire(run)
+  File "/opt/anaconda3/envs/dev/lib/python3.7/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/anaconda3/envs/dev/lib/python3.7/site-packages/fire/core.py", line 471, in _Fire
+    target=component.__name__)
+  File "/opt/anaconda3/envs/dev/lib/python3.7/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "app.py", line 127, in run
+    save_qualifying_loans(qualifying_loans)
+  File "app.py", line 109, in save_qualifying_loans
+    csvwriter.writerow(loan.values())
+AttributeError: 'list' object has no attribute 'values'
+(dev) peterlieberman@Peters-MBP loan_qualifier_app % cd
+(dev) peterlieberman@Peters-MBP ~ % cd Desktop
+(dev) peterlieberman@Peters-MBP Desktop % cd FinTech 
+(dev) peterlieberman@Peters-MBP FinTech % cd 02-Financial-Applications-Python 
+(dev) peterlieberman@Peters-MBP 02-Financial-Applications-Python % cd Challenge-2 
+(dev) peterlieberman@Peters-MBP Challenge-2 % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+(dev) peterlieberman@Peters-MBP Challenge-2 % git add . 
+(dev) peterlieberman@Peters-MBP Challenge-2 % git commit -m "Draft"
+[main 5c2c333] Draft
+ 14 files changed, 339 insertions(+), 1 deletion(-)
+ create mode 100644 .DS_Store
+ delete mode 100644 README.md
+ create mode 100644 loan_qualifier_app/.DS_Store
+ create mode 100644 loan_qualifier_app/README.md
+ create mode 100644 loan_qualifier_app/app.py
+ create mode 100644 loan_qualifier_app/data/daily_rate_sheet.csv
+ create mode 100644 loan_qualifier_app/qualifier/.DS_Store
+ create mode 100644 loan_qualifier_app/qualifier/filters/credit_score.py
+ create mode 100644 loan_qualifier_app/qualifier/filters/debt_to_income.py
+ create mode 100644 loan_qualifier_app/qualifier/filters/loan_to_value.py
+ create mode 100644 loan_qualifier_app/qualifier/filters/max_loan_size.py
+ create mode 100644 loan_qualifier_app/qualifier/utils/calculators.py
+ create mode 100644 loan_qualifier_app/qualifier/utils/fileio.py
+ create mode 100644 loan_qualifier_app/qualifying_loans.csv
+(dev) peterlieberman@Peters-MBP Challenge-2 % git push origin main
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (20/20), 6.29 KiB | 2.10 MiB/s, done.
+Total 20 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To github.com:Pac1226/Challenge-2.git
+   9b9de7f..5c2c333  main -> main
+(dev) peterlieberman@Peters-MBP Challenge-2 % 
