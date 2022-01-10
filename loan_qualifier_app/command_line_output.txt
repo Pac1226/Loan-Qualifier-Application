@@ -2,21 +2,21 @@
 ? Enter a file path to a rate-sheet (.csv): ./data/daily_rate_sheet.csv
 ? What's your credit score? 800
 ? What's your current amount of monthly debt? 200
-? What's your total monthly income? 5000
+? What's your total monthly income? 10000
 ? What's your desired loan amount? 100000
 ? What's your home value? 500000
-The monthly debt to income ratio is 0.04
+The monthly debt to income ratio is 0.02
 The loan to value ratio is 0.20.
 Found 24 qualifying loans
-(dev) peterlieberman@Peters-MBP loan_qualifier_app % cd
-(dev) peterlieberman@Peters-MBP ~ % pwd
-/Users/peterlieberman
-(dev) peterlieberman@Peters-MBP ~ % cd Desktop
-(dev) peterlieberman@Peters-MBP Desktop % cd FinTech 
-(dev) peterlieberman@Peters-MBP FinTech % cd 02-Financial-Applications-Python 
-(dev) peterlieberman@Peters-MBP 02-Financial-Applications-Python % cd Challenge-2
+(dev) peterlieberman@Peters-MBP loan_qualifier_app % cd ..
 (dev) peterlieberman@Peters-MBP Challenge-2 % git add .
-(dev) peterlieberman@Peters-MBP Challenge-2 %          
+(dev) peterlieberman@Peters-MBP Challenge-2 % git commit "Fixing an error in my code."
+
+
+
+
+
+
 
 
 
