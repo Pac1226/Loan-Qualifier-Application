@@ -104,7 +104,7 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 # qualifying_loans (list of lists) = The qualifying bank loans.
 def save_qualifying_loans(bank_data_filtered):
     qualifying_loans = pd.DataFrame(bank_data_filtered)
-    qualifying_loans.to_csv(r"..qualifying_loans.csv")
+    qualifying_loans.to_csv(r"qualifying_loans.csv")
 
 
 # This is the main function that runs the entire script.
@@ -115,7 +115,7 @@ def run():
 
     # Get the applicant's information
     credit_score, debt, income, loan_amount, home_value = get_applicant_info()
-
+    
     # Find qualifying loans
     qualifying_loans = find_qualifying_loans(
         bank_data, credit_score, debt, income, loan_amount, home_value
