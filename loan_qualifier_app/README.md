@@ -1,6 +1,6 @@
-# Peter Lieberman | Challenge 2 | Loan Qualifier Application
+# Peter Lieberman | Loan Qualifier Application
 
-The following document is a technical summary of a modular application built for "FinTech Lending Startup" that collects loan information from applicants to identify a list loans they qualify for.
+This a modular application built for a fintech lending startup that analyzes user-supplied data to identify a list loans they qualify for.
 
 
 ## Technologies
@@ -12,7 +12,7 @@ The program uses the Python libraries: sys, fire, questionary and pathlib. The a
 
 ## Installation Guide
 
-The program requires Python 3.7 and Anaconda (or another means for activitating the Python libraries).
+The program requires Python 3.7 and the Command Line interface to use.
 
 ---
 
@@ -50,7 +50,7 @@ The main program ("app.ipynb") utilizes six (6) modules that are contained in th
 
 ## Contributors
 
-The application was built by Peter Lieberman for Challenge 2 in the Columbia Engineering FinTech Bootcamp.
+The application was built by Peter Lieberman in the Columbia Engineering FinTech Bootcamp.
 
 ## License
 
