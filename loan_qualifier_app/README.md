@@ -50,7 +50,7 @@ The main program ("app.ipynb") utilizes six (6) modules that are contained in th
 
 ## Contributors
 
-The application was built by Peter Lieberman in the Columbia Engineering FinTech Bootcamp.
+The application was built by Peter Lieberman as an assignment in the Columbia Engineering FinTech Bootcamp.
 
 ## License
 
